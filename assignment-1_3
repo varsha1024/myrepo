@@ -1,0 +1,775 @@
+Script started on 2023-05-14 00:34:14+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="148" LINES="35"]
+]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ [K]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ [K]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda --version
+conda: command not found
+]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda [K[K[K[K[K[Ksudo apt update
+[sudo] password for varsha07: 
+[33m0% [Working][0m[33m0% [Waiting for headers] [Waiting for headers][0m                                              Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+[33m0% [Waiting for headers] [1 InRelease 13.7 kB/114 kB 12%][0m                                                         Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+[33m                                                         0% [1 InRelease 13.7 kB/114 kB 12%][0m[33m0% [Waiting for headers] [1 InRelease 13.7 kB/114 kB 12%][0m                                                         Get:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+[33m0% [3 InRelease 12.6 kB/114 kB 11%] [1 InRelease 33.3 kB/114 kB 29%][0m[33m                                                                    0% [3 InRelease 39.6 kB/114 kB 35%][0m[33m0% [3 InRelease 42.2 kB/114 kB 37%][0m                                   Get:4 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [2156 kB]
+[33m0% [3 InRelease 74.4 kB/114 kB 65%] [4 Packages 2589 B/2156 kB 0%][0m[33m                                                                  0% [4 Packages 120 kB/2156 kB 6%][0m[33m0% [Waiting for headers] [4 Packages 187 kB/2156 kB 9%][0m                                                       Get:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+[33m0% [5 InRelease 2281 B/108 kB 2%] [4 Packages 428 kB/2156 kB 20%][0m[33m                                                                 0% [4 Packages 934 kB/2156 kB 43%][0m[33m34% [Waiting for headers] [4 Packages 1344 kB/2156 kB 62%][0m[33m                                                          41% [Waiting for headers][0m[33m41% [4 Packages store 0 B] [Waiting for headers] [Waiting for headers][0m                                                                      Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2536 kB]
+[33m41% [4 Packages store 0 B] [6 Packages 2365 B/2536 kB 0%] [Waiting for [0m                                                                       Get:7 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [348 kB]
+[33m42% [4 Packages store 0 B] [6 Packages 84.8 kB/2536 kB 3%] [7 Translati[0m                                                                       Get:8 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [12.8 kB]
+[33m46% [4 Packages store 0 B] [6 Packages 100 kB/2536 kB 4%] [8 Commands-a[0m[33m46% [4 Packages store 0 B] [6 Packages 100 kB/2536 kB 4%] [Waiting for [0m                                                                       Get:9 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [835 kB]
+[33m46% [4 Packages store 0 B] [6 Packages 100 kB/2536 kB 4%] [9 Packages 1[0m[33m54% [4 Packages store 0 B] [6 Packages 134 kB/2536 kB 5%] [Waiting for [0m                                                                       Get:10 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [170 kB]
+[33m54% [4 Packages store 0 B] [6 Packages 134 kB/2536 kB 5%] [10 Translati[0m[33m56% [4 Packages store 0 B] [6 Packages 139 kB/2536 kB 5%] [Waiting for [0m                                                                       Get:11 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [17.7 kB]
+[33m56% [4 Packages store 0 B] [6 Packages 139 kB/2536 kB 5%] [11 Commands-[0m[33m                                                                       56% [4 Packages store 0 B] [6 Packages 141 kB/2536 kB 6%][0m[33m                                                         57% [6 Packages 201 kB/2536 kB 8%][0m[33m57% [7 Translation-en store 0 B] [6 Packages 201 kB/2536 kB 8%][0m[33m                                                               58% [6 Packages 268 kB/2536 kB 11%][0m[33m58% [8 Commands-amd64 store 0 B] [6 Packages 270 kB/2536 kB 11%][0m[33m                                                                58% [6 Packages 270 kB/2536 kB 11%][0m[33m58% [9 Packages store 0 B] [6 Packages 270 kB/2536 kB 11%][0m[33m                                                          59% [6 Packages 355 kB/2536 kB 14%][0m[33m59% [10 Translation-en store 0 B] [6 Packages 355 kB/2536 kB 14%][0m[33m                                                                 60% [6 Packages 381 kB/2536 kB 15%][0m[33m60% [11 Commands-amd64 store 0 B] [6 Packages 381 kB/2536 kB 15%][0m[33m                                                                 60% [6 Packages 384 kB/2536 kB 15%][0m[33m77% [6 Packages 2105 kB/2536 kB 83%][0m[33m                                    81% [Waiting for headers][0m                         Get:12 http://archive.ubuntu.com/ubuntu focal-updates/main Translation-en [429 kB]
+[33m81% [12 Translation-en 11.5 kB/429 kB 3%][0m[33m81% [6 Packages store 0 B] [12 Translation-en 11.5 kB/429 kB 3%][0m[33m                                                                85% [6 Packages store 0 B] [Waiting for headers][0m                                                Get:13 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [16.5 kB]
+[33m85% [6 Packages store 0 B] [13 Commands-amd64 12.2 kB/16.5 kB 74%][0m[33m                                                                  86% [6 Packages store 0 B][0m                          Get:14 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1062 kB]
+[33m86% [6 Packages store 0 B] [14 Packages 5916 B/1062 kB 1%][0m[33m                                                          96% [6 Packages store 0 B] [Waiting for headers][0m                                                Get:15 http://archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [251 kB]
+[33m97% [6 Packages store 0 B] [15 Translation-en 65.5 kB/251 kB 26%][0m[33m                                                                 98% [6 Packages store 0 B] [Waiting for headers][0m                                                Get:16 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [24.3 kB]
+[33m99% [6 Packages store 0 B] [16 Commands-amd64 20.5 kB/24.3 kB 84%][0m[33m                                                                  99% [6 Packages store 0 B][0m[33m                          99% [Working][0m[33m99% [12 Translation-en store 0 B][0m[33m                                 99% [Working][0m[33m99% [13 Commands-amd64 store 0 B][0m[33m                                 99% [Working][0m[33m99% [14 Packages store 0 B][0m[33m                           100% [Working][0m[33m100% [15 Translation-en store 0 B][0m[33m                                  100% [Working][0m[33m100% [16 Commands-amd64 store 0 B][0m[33m                                  100% [Working][0m              Fetched 8194 kB in 4s (2249 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 4%Reading package lists... 4%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 33%Reading package lists... 33%Reading package lists... 48%Reading package lists... 48%Reading package lists... 48%Reading package lists... 48%Reading package lists... 49%Reading package lists... 49%Reading package lists... 56%Reading package lists... 56%Reading package lists... 62%Reading package lists... 62%Reading package lists... 68%Reading package lists... 68%Reading package lists... 71%Reading package lists... 71%Reading package lists... 74%Reading package lists... 74%Reading package lists... 75%Reading package lists... 75%Reading package lists... 75%Reading package lists... 75%Reading package lists... 75%Reading package lists... 75%Reading package lists... 75%Reading package lists... 75%Reading package lists... 75%Reading package lists... 75%Reading package lists... 75%Reading package lists... 75%Reading package lists... 76%Reading package lists... 76%Reading package lists... 82%Reading package lists... 82%Reading package lists... 87%Reading package lists... 87%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+4 packages can be upgraded. Run 'apt list --upgradable' to see them.
+]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ sudo apt upgrade
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Calculating upgrade... 0%Calculating upgrade... 10%Calculating upgrade... Done
+The following packages will be upgraded:
+  libfreetype6 openssh-client openssh-server openssh-sftp-server
+4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+1 standard LTS security update
+Need to get 1438 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m            Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 openssh-sftp-server amd64 1:8.2p1-4ubuntu0.7 [51.5 kB]
+[33m1% [1 openssh-sftp-server 13.7 kB/51.5 kB 27%][0m[33m                                              8% [Working][0m            Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 openssh-server amd64 1:8.2p1-4ubuntu0.7 [377 kB]
+[33m8% [2 openssh-server 2517 B/377 kB 1%][0m[33m21% [2 openssh-server 236 kB/377 kB 63%][0m[33m                                        34% [Waiting for headers][0m                         Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 openssh-client amd64 1:8.2p1-4ubuntu0.7 [668 kB]
+[33m34% [3 openssh-client 222 B/668 kB 0%][0m[33m                                      76% [Waiting for headers][0m                         Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libfreetype6 amd64 2.10.1-2ubuntu0.3 [341 kB]
+[33m76% [4 libfreetype6 3771 B/341 kB 1%][0m[33m                                     100% [Working][0m              Fetched 1438 kB in 2s (671 kB/s)
+Preconfiguring packages ...
+
+7[0;33r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 59794 files and directories currently installed.)
+Preparing to unpack .../openssh-sftp-server_1%3a8.2p1-4ubuntu0.7_amd64.deb ...
+7[34;0f[42m[30mProgress: [  0%][49m[39m [..................................................] 87[34;0f[42m[30mProgress: [  6%][49m[39m [##................................................] 8Unpacking openssh-sftp-server (1:8.2p1-4ubuntu0.7) over (1:8.2p1-4ubuntu0.5) ...
+7[34;0f[42m[30mProgress: [ 12%][49m[39m [#####.............................................] 8Preparing to unpack .../openssh-server_1%3a8.2p1-4ubuntu0.7_amd64.deb ...
+7[34;0f[42m[30mProgress: [ 18%][49m[39m [########..........................................] 8Unpacking openssh-server (1:8.2p1-4ubuntu0.7) over (1:8.2p1-4ubuntu0.5) ...
+7[34;0f[42m[30mProgress: [ 24%][49m[39m [###########.......................................] 8Preparing to unpack .../openssh-client_1%3a8.2p1-4ubuntu0.7_amd64.deb ...
+7[34;0f[42m[30mProgress: [ 29%][49m[39m [##############....................................] 8Unpacking openssh-client (1:8.2p1-4ubuntu0.7) over (1:8.2p1-4ubuntu0.5) ...
+7[34;0f[42m[30mProgress: [ 35%][49m[39m [#################.................................] 8Preparing to unpack .../libfreetype6_2.10.1-2ubuntu0.3_amd64.deb ...
+7[34;0f[42m[30mProgress: [ 41%][49m[39m [####################..............................] 8Unpacking libfreetype6:amd64 (2.10.1-2ubuntu0.3) over (2.10.1-2ubuntu0.2) ...
+7[34;0f[42m[30mProgress: [ 47%][49m[39m [#######################...........................] 8Setting up openssh-client (1:8.2p1-4ubuntu0.7) ...
+7[34;0f[42m[30mProgress: [ 53%][49m[39m [##########################........................] 87[34;0f[42m[30mProgress: [ 59%][49m[39m [#############################.....................] 8Setting up libfreetype6:amd64 (2.10.1-2ubuntu0.3) ...
+7[34;0f[42m[30mProgress: [ 65%][49m[39m [################################..................] 87[34;0f[42m[30mProgress: [ 71%][49m[39m [###################################...............] 8Setting up openssh-sftp-server (1:8.2p1-4ubuntu0.7) ...
+7[34;0f[42m[30mProgress: [ 76%][49m[39m [######################################............] 87[34;0f[42m[30mProgress: [ 82%][49m[39m [#########################################.........] 8Setting up openssh-server (1:8.2p1-4ubuntu0.7) ...
+7[34;0f[42m[30mProgress: [ 88%][49m[39m [############################################......] 8Creating SSH2 RSA key; this may take some time ...
+3072 SHA256:H0LWi0wT8tgexeeEmI6VlXqXvycuK0P4ADXTYdwgdTc root@TIGER02756 (RSA)
+Creating SSH2 ECDSA key; this may take some time ...
+256 SHA256:eRwSimnrlMu7vmcuWUeXp2aE3xjIZsNQZyjvIZWUMkU root@TIGER02756 (ECDSA)
+Creating SSH2 ED25519 key; this may take some time ...
+256 SHA256:2xi8BkoEcnIA9nzoYqUOAAP9QW13ryoEpuOj+/kvK7I root@TIGER02756 (ED25519)
+invoke-rc.d: could not determine current runlevel
+7[34;0f[42m[30mProgress: [ 94%][49m[39m [###############################################...] 8Processing triggers for ufw (0.36-6ubuntu1) ...
+Processing triggers for systemd (245.4-4ubuntu3.21) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+
+7[0;34r8[1A[J]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o Miniconda3-latest-Linux-x86_64.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 28 69.7M   28 19.9M    0     0  22.5M      0  0:00:03 --:--:--  0:00:03 22.5M 41 69.7M   41 28.9M    0     0  15.3M      0  0:00:04  0:00:01  0:00:03 15.3M 74 69.7M   74 52.2M    0     0  18.1M      0  0:00:03  0:00:02  0:00:01 18.1M100 69.7M  100 69.7M    0     0  19.4M      0  0:00:03  0:00:03 --:--:-- 19.4M
+]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ chmod +x Miniconda3-latest-Linux-x86_64.sh
+]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ bash Miniconda3-latest-Linux-x86_64.sh
+
+Welcome to Miniconda3 py310_23.3.1-0
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+>>> 
+======================================
+End User License Agreement - Miniconda
+======================================
+
+Copyright 2015-2023, Anaconda, Inc.
+
+All rights reserved under the 3-clause BSD License:
+
+This End User License Agreement (the "Agreement") is a legal agreement b
+etween you and Anaconda, Inc. ("Anaconda") and governs your use of Minic
+onda.
+
+Subject to the terms of this Agreement, Anaconda hereby grants you a non
+-exclusive, non-transferable license to:
+
+  * Install and use the Miniconda,
+  * Modify and create derivative works of sample source code delivered i
+n Miniconda subject to the Terms of Service for the Repository (as defin
+ed hereinafter) available at https://www.anaconda.com/terms-of-service, 
+and
+  * Redistribute code files in source (if provided to you by Anaconda as
+ source) and binary forms, with or without modification subject to the r
+equirements set forth below.
+
+Anaconda may, at its option, make available patches, workarounds or othe
+r updates to Miniconda. Unless the updates are provided with their separ
+ate governing terms, they are deemed part of Miniconda licensed to you a
+s provided in this Agreement. This Agreement does not entitle you to any
+ support for Miniconda.
+
+Anaconda reserves all rights not expressly granted to you in this Agreem
+ent.
+
+[7m--More--[27mRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentat
+ion and/or other materials provided with the distribution.
+  * Neither the name of Anaconda nor the names of its contributors may be used to endorse or promote products derived from this software without spe
+cific prior written permission.
+
+You acknowledge that, as between you and Anaconda, Anaconda owns all right, title, and interest, including all intellectual property rights, in and 
+to Miniconda and, with respect to third-party products distributed with or through Miniconda, the applicable third-party licensors own all right, ti
+tle and interest, including all intellectual property rights, in and to such products. If you send or transmit any communications or materials to An
+aconda suggesting or recommending changes to the software or documentation, including without limitation, new features or functionality relating the
+reto, or any comments, questions, suggestions or the like ("Feedback"), Anaconda is free to use such Feedback. You hereby assign to Anaconda all rig
+ht, title, and interest in, and Anaconda is free to use, without any attribution or compensation to any party, any ideas, know-how, concepts, techni
+ques or other intellectual property rights contained in the Feedback, for any purpose whatsoever, although Anaconda is not required to use any Feedb
+ack.
+[7m--More--[27m[K
+Do you accept the license terms? [yes|no]
+[no] >>> yes
+
+Miniconda3 will now be installed into this location:
+/home/varsha07/miniconda3
+
+  - Press ENTER to confirm the location
+  - Press CTRL-C to abort the installation
+  - Or specify a different location below
+
+[/home/varsha07/miniconda3] >>> 
+PREFIX=/home/varsha07/miniconda3
+Unpacking payload ...
+  0%|                                                                                                                        | 0/49 [00:00<?, ?it/s]Extracting : idna-3.4-py310h06a4308_0.conda:   0%|                                                                           | 0/49 [00:00<?, ?it/s]Extracting : six-1.16.0-pyhd3eb1b0_1.conda:   2%|█▍                                                                  | 1/49 [00:00<00:02, 22.97it/s]Extracting : libuuid-1.41.5-h5eee18b_0.conda:   4%|██▋                                                               | 2/49 [00:00<00:01, 45.25it/s]Extracting : pycparser-2.21-pyhd3eb1b0_0.conda:   6%|███▉                                                            | 3/49 [00:00<00:00, 67.65it/s]Extracting : xz-5.2.10-h5eee18b_1.conda:   8%|█████▊                                                                 | 4/49 [00:00<00:01, 44.58it/s]Extracting : tk-8.6.12-h1ccaba5_0.conda:  10%|███████▏                                                               | 5/49 [00:00<00:01, 23.31it/s]Extracting : tk-8.6.12-h1ccaba5_0.conda:  12%|████████▋                                                              | 6/49 [00:00<00:01, 27.95it/s]Extracting : wheel-0.38.4-py310h06a4308_0.conda:  12%|███████▋                                                       | 6/49 [00:00<00:01, 27.95it/s]Extracting : conda-package-handling-2.0.2-py310h06a4308_0.conda:  14%|██████▋                                        | 7/49 [00:00<00:01, 27.95it/s]Extracting : ca-certificates-2023.01.10-h06a4308_0.conda:  16%|████████▊                                             | 8/49 [00:00<00:01, 27.95it/s]Extracting : readline-8.2-h5eee18b_0.conda:  18%|████████████▍                                                       | 9/49 [00:00<00:01, 27.95it/s]Extracting : brotlipy-0.7.0-py310h7f8727e_1002.conda:  20%|███████████▋                                             | 10/49 [00:00<00:01, 27.95it/s]Extracting : pycosat-0.6.4-py310h5eee18b_0.conda:  22%|█████████████▋                                               | 11/49 [00:00<00:01, 27.95it/s]Extracting : conda-content-trust-0.1.3-py310h06a4308_0.conda:  24%|████████████                                     | 12/49 [00:00<00:01, 27.95it/s]Extracting : requests-2.28.1-py310h06a4308_1.conda:  27%|███████████████▋                                           | 13/49 [00:00<00:01, 27.95it/s]Extracting : sqlite-3.41.1-h5eee18b_0.conda:  29%|██████████████████▊                                               | 14/49 [00:00<00:01, 27.95it/s]Extracting : libgomp-11.2.0-h1234567_1.conda:  31%|███████████████████▉                                             | 15/49 [00:00<00:01, 27.95it/s]Extracting : cffi-1.15.1-py310h5eee18b_3.conda:  33%|████████████████████▌                                          | 16/49 [00:00<00:01, 27.95it/s]Extracting : ld_impl_linux-64-2.38-h1181459_1.conda:  35%|████████████████████                                      | 17/49 [00:00<00:01, 27.95it/s]Extracting : libffi-3.4.2-h6a678d5_6.conda:  37%|████████████████████████▌                                          | 18/49 [00:00<00:01, 27.95it/s]Extracting : python-3.10.10-h7a1cb2a_2.conda:  39%|█████████████████████████▏                                       | 19/49 [00:00<00:01, 27.95it/s]Extracting : python-3.10.10-h7a1cb2a_2.conda:  41%|██████████████████████████▌                                      | 20/49 [00:00<00:01, 27.61it/s]Extracting : tzdata-2023c-h04d1e81_0.conda:  41%|███████████████████████████▎                                       | 20/49 [00:00<00:01, 27.61it/s]Extracting : ruamel.yaml-0.17.21-py310h5eee18b_0.conda:  43%|███████████████████████▌                               | 21/49 [00:00<00:01, 27.61it/s]Extracting : _openmp_mutex-5.1-1_gnu.conda:  45%|██████████████████████████████                                     | 22/49 [00:00<00:00, 27.61it/s]Extracting : conda-23.3.1-py310h06a4308_0.conda:  47%|█████████████████████████████                                 | 23/49 [00:00<00:00, 27.61it/s]Extracting : boltons-23.0.0-py310h06a4308_0.conda:  49%|█████████████████████████████▍                              | 24/49 [00:00<00:00, 27.61it/s]Extracting : pip-23.0.1-py310h06a4308_0.conda:  51%|████████████████████████████████▋                               | 25/49 [00:00<00:00, 27.61it/s]Extracting : toolz-0.12.0-py310h06a4308_0.conda:  53%|████████████████████████████████▉                             | 26/49 [00:00<00:00, 27.61it/s]Extracting : packaging-23.0-py310h06a4308_0.conda:  55%|█████████████████████████████████                           | 27/49 [00:00<00:00, 27.61it/s]Extracting : ruamel.yaml.clib-0.2.6-py310h5eee18b_1.conda:  57%|█████████████████████████████▋                      | 28/49 [00:00<00:00, 27.61it/s]Extracting : urllib3-1.26.15-py310h06a4308_0.conda:  59%|██████████████████████████████████▉                        | 29/49 [00:00<00:00, 27.61it/s]Extracting : openssl-1.1.1t-h7f8727e_0.conda:  61%|███████████████████████████████████████▊                         | 30/49 [00:00<00:00, 27.61it/s]Extracting : zstandard-0.19.0-py310h5eee18b_0.conda:  63%|████████████████████████████████████▋                     | 31/49 [00:00<00:00, 27.61it/s]Extracting : _libgcc_mutex-0.1-main.conda:  65%|████████████████████████████████████████████▍                       | 32/49 [00:00<00:00, 27.61it/s]Extracting : libstdcxx-ng-11.2.0-h1234567_1.conda:  67%|████████████████████████████████████████▍                   | 33/49 [00:00<00:00, 27.61it/s]Extracting : pyopenssl-23.0.0-py310h06a4308_0.conda:  69%|████████████████████████████████████████▏                 | 34/49 [00:00<00:00, 27.61it/s]Extracting : pluggy-1.0.0-py310h06a4308_1.conda:  71%|████████████████████████████████████████████▎                 | 35/49 [00:00<00:00, 27.61it/s]Extracting : charset-normalizer-2.0.4-pyhd3eb1b0_0.conda:  73%|██████████████████████████████████████▉              | 36/49 [00:00<00:00, 27.61it/s]Extracting : jsonpointer-2.1-pyhd3eb1b0_0.conda:  76%|██████████████████████████████████████████████▊               | 37/49 [00:00<00:00, 27.61it/s]Extracting : jsonpatch-1.32-pyhd3eb1b0_0.conda:  78%|████████████████████████████████████████████████▊              | 38/49 [00:00<00:00, 27.61it/s]Extracting : certifi-2022.12.7-py310h06a4308_0.conda:  80%|█████████████████████████████████████████████▎           | 39/49 [00:00<00:00, 27.61it/s]Extracting : conda-package-streaming-0.7.0-py310h06a4308_0.conda:  82%|████████████████████████████████████▋        | 40/49 [00:00<00:00, 27.61it/s]Extracting : setuptools-65.6.3-py310h06a4308_0.conda:  84%|███████████████████████████████████████████████▋         | 41/49 [00:00<00:00, 27.61it/s]Extracting : pysocks-1.7.1-py310h06a4308_0.conda:  86%|████████████████████████████████████████████████████▎        | 42/49 [00:00<00:00, 27.61it/s]Extracting : zlib-1.2.13-h5eee18b_0.conda:  88%|███████████████████████████████████████████████████████████▋        | 43/49 [00:00<00:00, 27.61it/s]Extracting : libgcc-ng-11.2.0-h1234567_1.conda:  90%|████████████████████████████████████████████████████████▌      | 44/49 [00:00<00:00, 27.61it/s]Extracting : bzip2-1.0.8-h7b6447c_0.conda:  92%|██████████████████████████████████████████████████████████████▍     | 45/49 [00:00<00:00, 27.61it/s]Extracting : tqdm-4.65.0-py310h2f386ee_0.conda:  94%|███████████████████████████████████████████████████████████▏   | 46/49 [00:00<00:00, 27.61it/s]Extracting : cryptography-39.0.1-py310h9ce1e76_0.conda:  96%|████████████████████████████████████████████████████▊  | 47/49 [00:00<00:00, 27.61it/s]Extracting : ncurses-6.4-h6a678d5_0.conda:  98%|██████████████████████████████████████████████████████████████████▌ | 48/49 [00:00<00:00, 27.61it/s]                                                                                                                                                    
+Installing base environment...
+
+
+Downloading and Extracting Packages
+
+
+Downloading and Extracting Packages
+
+Preparing transaction: - \ done
+Executing transaction: / - \ | / - \ | / - \ done
+installation finished.
+Do you wish the installer to initialize Miniconda3
+by running conda init? [yes|no]
+[no] >>> yes
+no change     /home/varsha07/miniconda3/condabin/conda
+no change     /home/varsha07/miniconda3/bin/conda
+no change     /home/varsha07/miniconda3/bin/conda-env
+no change     /home/varsha07/miniconda3/bin/activate
+no change     /home/varsha07/miniconda3/bin/deactivate
+no change     /home/varsha07/miniconda3/etc/profile.d/conda.sh
+no change     /home/varsha07/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/varsha07/miniconda3/shell/condabin/Conda.psm1
+no change     /home/varsha07/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/varsha07/miniconda3/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /home/varsha07/miniconda3/etc/profile.d/conda.csh
+modified      /home/varsha07/.bashrc
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+If you'd prefer that conda's base environment not be activated on startup, 
+   set the auto_activate_base parameter to false: 
+
+conda config --set auto_activate_base false
+
+Thank you for installing Miniconda3!
+]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda =[K--version
+conda: command not found
+]0;varsha07@TIScript started on 2023-05-15 19:25:08+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="72" LINES="34"]
+(base) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda --version
+conda 23.3.1
+(base) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda update conda
+Retrieving notices: ...working... done
+Collecting package metadata (current_repodata.json): \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Solving environment: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+
+# All requested packages already installed.
+
+(base) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda create --name snowflakes biopython
+WARNING: A conda environment already exists at '/home/varsha07/miniconda3/envs/snowflakes'
+Remove existing environment (y/[n])? y
+
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Solving environment: / - \ | / - \ | / - \ | / - \ | / - \ | done
+
+## Package Plan ##
+
+  environment location: /home/varsha07/miniconda3/envs/snowflakes
+
+  added / updated specs:
+    - biopython
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    biopython-1.81             |  py311h2582759_0         3.2 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         3.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge 
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-2_gnu 
+  biopython          conda-forge/linux-64::biopython-1.81-py311h2582759_0 
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-h7f98852_4 
+  ca-certificates    conda-forge/linux-64::ca-certificates-2023.5.7-hbcca054_0 
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.40-h41732ed_0 
+  libblas            conda-forge/linux-64::libblas-3.9.0-16_linux64_openblas 
+  libcblas           conda-forge/linux-64::libcblas-3.9.0-16_linux64_openblas 
+  libexpat           conda-forge/linux-64::libexpat-2.5.0-hcb278e6_1 
+  libffi             conda-forge/linux-64::libffi-3.4.2-h7f98852_5 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-12.2.0-h65d4601_19 
+  libgfortran-ng     conda-forge/linux-64::libgfortran-ng-12.2.0-h69a702a_19 
+  libgfortran5       conda-forge/linux-64::libgfortran5-12.2.0-h337968e_19 
+  libgomp            conda-forge/linux-64::libgomp-12.2.0-h65d4601_19 
+  liblapack          conda-forge/linux-64::liblapack-3.9.0-16_linux64_openblas 
+  libnsl             conda-forge/linux-64::libnsl-2.0.0-h7f98852_0 
+  libopenblas        conda-forge/linux-64::libopenblas-0.3.21-pthreads_h78a6416_3 
+  libsqlite          conda-forge/linux-64::libsqlite-3.41.2-h2797004_1 
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-12.2.0-h46fd767_19 
+  libuuid            conda-forge/linux-64::libuuid-2.38.1-h0b41bf4_0 
+  libzlib            conda-forge/linux-64::libzlib-1.2.13-h166bdaf_4 
+  ncurses            conda-forge/linux-64::ncurses-6.3-h27087fc_1 
+  numpy              conda-forge/linux-64::numpy-1.24.3-py311h64a7726_0 
+  openssl            conda-forge/linux-64::openssl-3.1.0-hd590300_3 
+  pip                conda-forge/noarch::pip-23.1.2-pyhd8ed1ab_0 
+  python             conda-forge/linux-64::python-3.11.3-h2755cc3_0_cpython 
+  python_abi         conda-forge/linux-64::python_abi-3.11-3_cp311 
+  readline           conda-forge/linux-64::readline-8.2-h8228510_1 
+  setuptools         conda-forge/noarch::setuptools-67.7.2-pyhd8ed1ab_0 
+  tk                 conda-forge/linux-64::tk-8.6.12-h27826a3_0 
+  tzdata             conda-forge/noarch::tzdata-2023c-h71feb2d_0 
+  wheel              conda-forge/noarch::wheel-0.40.0-pyhd8ed1ab_0 
+  xz                 conda-forge/linux-64::xz-5.2.6-h166bdaf_0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+biopython-1.81       | 3.2 MB    |                               |   0% biopython-1.81       | 3.2 MB    | 1                             |   0% biopython-1.81       | 3.2 MB    | 4                             |   1% biopython-1.81       | 3.2 MB    | 9                             |   3% biopython-1.81       | 3.2 MB    | #6                            |   6% biopython-1.81       | 3.2 MB    | ##5                           |   9% biopython-1.81       | 3.2 MB    | ###3                          |  12% biopython-1.81       | 3.2 MB    | ####7                         |  17% biopython-1.81       | 3.2 MB    | #####6                        |  19% biopython-1.81       | 3.2 MB    | ######6                       |  23% biopython-1.81       | 3.2 MB    | #######4                      |  26% biopython-1.81       | 3.2 MB    | ########4                     |  29% biopython-1.81       | 3.2 MB    | #########2                    |  32% biopython-1.81       | 3.2 MB    | ##########                    |  34% biopython-1.81       | 3.2 MB    | ##########7                   |  37% biopython-1.81       | 3.2 MB    | ###########4                  |  39% biopython-1.81       | 3.2 MB    | ############1                 |  42% biopython-1.81       | 3.2 MB    | ############8                 |  44% biopython-1.81       | 3.2 MB    | #############3                |  46% biopython-1.81       | 3.2 MB    | ##############5               |  50% biopython-1.81       | 3.2 MB    | ###############2              |  52% biopython-1.81       | 3.2 MB    | ###############9              |  55% biopython-1.81       | 3.2 MB    | ################9             |  58% biopython-1.81       | 3.2 MB    | #################6            |  61% biopython-1.81       | 3.2 MB    | ##################4           |  64% biopython-1.81       | 3.2 MB    | ###################1          |  66% biopython-1.81       | 3.2 MB    | ###################8          |  68% biopython-1.81       | 3.2 MB    | #####################2        |  73% biopython-1.81       | 3.2 MB    | #####################9        |  76% biopython-1.81       | 3.2 MB    | ########################3     |  84% biopython-1.81       | 3.2 MB    | #########################2    |  87% biopython-1.81       | 3.2 MB    | ##########################    |  90% biopython-1.81       | 3.2 MB    | ##########################7   |  92% biopython-1.81       | 3.2 MB    | ###########################8  |  96% biopython-1.81       | 3.2 MB    | ############################5 |  99% biopython-1.81       | 3.2 MB    | ############################# | 100%                                                                         
+Preparing transaction: - \ | done
+Verifying transaction: - \ | / - \ | / - \ | / - done
+Executing transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+#
+# To activate this environment, use
+#
+#     $ conda activate snowflakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda --version
+conda 23.3.1
+(base) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda activate
+(base) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda activate snowflakes
+(snowflakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda info --envs
+# conda environments:
+#
+                         /home/varsha07/envs
+base                     /home/varsha07/miniconda3
+myenv                    /home/varsha07/miniconda3/envs/myenv
+snakes                   /home/varsha07/miniconda3/envs/snakes
+snowflakes            *  /home/varsha07/miniconda3/envs/snowflakes
+
+(snowflakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda activate
+(base) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda create --name snakes python=3.9
+WARNING: A conda environment already exists at '/home/varsha07/miniconda3/envs/snakes'
+Remove existing environment (y/[n])? y
+
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Solving environment: / - \ done
+
+## Package Plan ##
+
+  environment location: /home/varsha07/miniconda3/envs/snakes
+
+  added / updated specs:
+    - python=3.9
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge 
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-2_gnu 
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-h7f98852_4 
+  ca-certificates    conda-forge/linux-64::ca-certificates-2023.5.7-hbcca054_0 
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.40-h41732ed_0 
+  libffi             conda-forge/linux-64::libffi-3.4.2-h7f98852_5 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-12.2.0-h65d4601_19 
+  libgomp            conda-forge/linux-64::libgomp-12.2.0-h65d4601_19 
+  libnsl             conda-forge/linux-64::libnsl-2.0.0-h7f98852_0 
+  libsqlite          conda-forge/linux-64::libsqlite-3.41.2-h2797004_1 
+  libuuid            conda-forge/linux-64::libuuid-2.38.1-h0b41bf4_0 
+  libzlib            conda-forge/linux-64::libzlib-1.2.13-h166bdaf_4 
+  ncurses            conda-forge/linux-64::ncurses-6.3-h27087fc_1 
+  openssl            conda-forge/linux-64::openssl-3.1.0-hd590300_3 
+  pip                conda-forge/noarch::pip-23.1.2-pyhd8ed1ab_0 
+  python             conda-forge/linux-64::python-3.9.16-h2782a2a_0_cpython 
+  readline           conda-forge/linux-64::readline-8.2-h8228510_1 
+  setuptools         conda-forge/noarch::setuptools-67.7.2-pyhd8ed1ab_0 
+  tk                 conda-forge/linux-64::tk-8.6.12-h27826a3_0 
+  tzdata             conda-forge/noarch::tzdata-2023c-h71feb2d_0 
+  wheel              conda-forge/noarch::wheel-0.40.0-pyhd8ed1ab_0 
+  xz                 conda-forge/linux-64::xz-5.2.6-h166bdaf_0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+
+Preparing transaction: / - done
+Verifying transaction: | / - \ | / - \ done
+Executing transaction: / - \ | / - \ | / - \ | / - \ | / - \ done
+#
+# To activate this environment, use
+#
+#     $ conda activate snakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda activate sb[Knal[Kkes
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda --[K[Kinfo --evs[K[Knvs
+# conda environments:
+#
+                         /home/varsha07/envs
+base                     /home/varsha07/miniconda3
+myenv                    /home/varsha07/miniconda3/envs/myenv
+snakes                *  /home/varsha07/miniconda3/envs/snakes
+snowflakes               /home/varsha07/miniconda3/envs/snowflakes
+
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ python --version
+Python 3.9.16
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ v[Kconda activate
+(base) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda activatepython --versionconda info --envs
+^[[A# conda environments:
+#
+                         /home/varsha07/envs
+base                  *  /home/varsha07/miniconda3
+myenv                    /home/varsha07/miniconda3/envs/myenv
+snakes                   /home/varsha07/miniconda3/envs/snakes
+snowflakes               /home/varsha07/miniconda3/envs/snowflakes
+
+(base) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda info --envs[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kconda activate snal[Kkes
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda search beautifulsoup4
+Loading channels: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+# Name                       Version           Build  Channel             
+beautifulsoup4                 4.5.3          py27_0  conda-forge         
+beautifulsoup4                 4.5.3          py35_0  conda-forge         
+beautifulsoup4                 4.5.3          py36_0  conda-forge         
+beautifulsoup4                 4.6.0          py27_0  conda-forge         
+beautifulsoup4                 4.6.0          py27_1  pkgs/main           
+beautifulsoup4                 4.6.0  py27h3f86ba9_1  pkgs/main           
+beautifulsoup4                 4.6.0          py35_0  conda-forge         
+beautifulsoup4                 4.6.0  py35h442a8c9_1  pkgs/main           
+beautifulsoup4                 4.6.0          py36_0  conda-forge         
+beautifulsoup4                 4.6.0          py36_1  pkgs/main           
+beautifulsoup4                 4.6.0  py36h49b8c8c_1  pkgs/main           
+beautifulsoup4                 4.6.0          py37_1  pkgs/main           
+beautifulsoup4                 4.6.1          py27_0  conda-forge         
+beautifulsoup4                 4.6.1          py27_0  pkgs/main           
+beautifulsoup4                 4.6.1          py35_0  conda-forge         
+beautifulsoup4                 4.6.1          py35_0  pkgs/main           
+beautifulsoup4                 4.6.1          py36_0  conda-forge         
+beautifulsoup4                 4.6.1          py36_0  pkgs/main           
+beautifulsoup4                 4.6.1          py37_0  conda-forge         
+beautifulsoup4                 4.6.1          py37_0  pkgs/main           
+beautifulsoup4                 4.6.3          py27_0  conda-forge         
+beautifulsoup4                 4.6.3          py27_0  pkgs/main           
+beautifulsoup4                 4.6.3       py27_1000  conda-forge         
+beautifulsoup4                 4.6.3          py35_0  conda-forge         
+beautifulsoup4                 4.6.3          py35_0  pkgs/main           
+beautifulsoup4                 4.6.3          py36_0  conda-forge         
+beautifulsoup4                 4.6.3          py36_0  pkgs/main           
+beautifulsoup4                 4.6.3       py36_1000  conda-forge         
+beautifulsoup4                 4.6.3          py37_0  conda-forge         
+beautifulsoup4                 4.6.3          py37_0  pkgs/main           
+beautifulsoup4                 4.6.3       py37_1000  conda-forge         
+beautifulsoup4                 4.7.0       py27_1000  conda-forge         
+beautifulsoup4                 4.7.0       py36_1000  conda-forge         
+beautifulsoup4                 4.7.0       py37_1000  conda-forge         
+beautifulsoup4                 4.7.1          py27_1  pkgs/main           
+beautifulsoup4                 4.7.1       py27_1000  conda-forge         
+beautifulsoup4                 4.7.1       py27_1001  conda-forge         
+beautifulsoup4                 4.7.1          py36_1  pkgs/main           
+beautifulsoup4                 4.7.1       py36_1000  conda-forge         
+beautifulsoup4                 4.7.1       py36_1001  conda-forge         
+beautifulsoup4                 4.7.1          py37_1  pkgs/main           
+beautifulsoup4                 4.7.1       py37_1000  conda-forge         
+beautifulsoup4                 4.7.1       py37_1001  conda-forge         
+beautifulsoup4                 4.8.0          py27_0  conda-forge         
+beautifulsoup4                 4.8.0          py27_0  pkgs/main           
+beautifulsoup4                 4.8.0          py36_0  conda-forge         
+beautifulsoup4                 4.8.0          py36_0  pkgs/main           
+beautifulsoup4                 4.8.0          py37_0  conda-forge         
+beautifulsoup4                 4.8.0          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py27_0  conda-forge         
+beautifulsoup4                 4.8.1          py27_0  pkgs/main           
+beautifulsoup4                 4.8.1          py36_0  conda-forge         
+beautifulsoup4                 4.8.1          py36_0  pkgs/main           
+beautifulsoup4                 4.8.1          py37_0  conda-forge         
+beautifulsoup4                 4.8.1          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py38_0  conda-forge         
+beautifulsoup4                 4.8.1          py38_0  pkgs/main           
+beautifulsoup4                 4.8.2          py27_0  conda-forge         
+beautifulsoup4                 4.8.2          py27_0  pkgs/main           
+beautifulsoup4                 4.8.2          py36_0  conda-forge         
+beautifulsoup4                 4.8.2          py36_0  pkgs/main           
+beautifulsoup4                 4.8.2  py36h9f0ad1d_1  conda-forge         
+beautifulsoup4                 4.8.2  py36hc560c46_1  conda-forge         
+beautifulsoup4                 4.8.2          py37_0  conda-forge         
+beautifulsoup4                 4.8.2          py37_0  pkgs/main           
+beautifulsoup4                 4.8.2  py37hc8dfbb8_1  conda-forge         
+beautifulsoup4                 4.8.2          py38_0  conda-forge         
+beautifulsoup4                 4.8.2          py38_0  pkgs/main           
+beautifulsoup4                 4.8.2  py38h32f6830_1  conda-forge         
+beautifulsoup4                 4.9.0          py36_0  pkgs/main           
+beautifulsoup4                 4.9.0  py36h9f0ad1d_0  conda-forge         
+beautifulsoup4                 4.9.0  py36hc560c46_0  conda-forge         
+beautifulsoup4                 4.9.0          py37_0  pkgs/main           
+beautifulsoup4                 4.9.0  py37hc8dfbb8_0  conda-forge         
+beautifulsoup4                 4.9.0          py38_0  pkgs/main           
+beautifulsoup4                 4.9.0  py38h32f6830_0  conda-forge         
+beautifulsoup4                 4.9.1          py36_0  pkgs/main           
+beautifulsoup4                 4.9.1  py36h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1  py36h9f0ad1d_0  conda-forge         
+beautifulsoup4                 4.9.1  py36hc560c46_0  conda-forge         
+beautifulsoup4                 4.9.1          py37_0  pkgs/main           
+beautifulsoup4                 4.9.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1  py37hc8dfbb8_0  conda-forge         
+beautifulsoup4                 4.9.1          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1  py38h32f6830_0  conda-forge         
+beautifulsoup4                 4.9.1  py39h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1            py_1  conda-forge         
+beautifulsoup4                 4.9.2            py_0  conda-forge         
+beautifulsoup4                 4.9.3    pyha847dfd_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyhb0f4dca_0  conda-forge         
+beautifulsoup4                 4.9.3    pyhb0f4dca_0  pkgs/main           
+beautifulsoup4                4.10.0    pyh06a4308_0  pkgs/main           
+beautifulsoup4                4.10.0    pyha770c72_0  conda-forge         
+beautifulsoup4                4.11.0    pyha770c72_0  conda-forge         
+beautifulsoup4                4.11.1 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py39h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1    pyha770c72_0  conda-forge         
+beautifulsoup4                4.11.2    pyha770c72_0  conda-forge         
+beautifulsoup4                4.12.0 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0  py39h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.0    pyha770c72_0  conda-forge         
+beautifulsoup4                4.12.1    pyha770c72_0  conda-forge         
+beautifulsoup4                4.12.2 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2 py311h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2  py39h06a4308_0  pkgs/main           
+beautifulsoup4                4.12.2    pyha770c72_0  conda-forge         
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda install beautifulsoup4
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Solving environment: / - done
+
+## Package Plan ##
+
+  environment location: /home/varsha07/miniconda3/envs/snakes
+
+  added / updated specs:
+    - beautifulsoup4
+
+
+The following NEW packages will be INSTALLED:
+
+  beautifulsoup4     conda-forge/noarch::beautifulsoup4-4.12.2-pyha770c72_0 
+  soupsieve          conda-forge/noarch::soupsieve-2.3.2.post1-pyhd8ed1ab_0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+
+Preparing transaction: | done
+Verifying transaction: - done
+Executing transaction: | / - \ | / - done
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda list
+# packages in environment at /home/varsha07/miniconda3/envs/snakes:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                 conda_forge    conda-forge
+_openmp_mutex             4.5                       2_gnu    conda-forge
+beautifulsoup4            4.12.2             pyha770c72_0    conda-forge
+bzip2                     1.0.8                h7f98852_4    conda-forge
+ca-certificates           2023.5.7             hbcca054_0    conda-forge
+ld_impl_linux-64          2.40                 h41732ed_0    conda-forge
+libffi                    3.4.2                h7f98852_5    conda-forge
+libgcc-ng                 12.2.0              h65d4601_19    conda-forge
+libgomp                   12.2.0              h65d4601_19    conda-forge
+libnsl                    2.0.0                h7f98852_0    conda-forge
+libsqlite                 3.41.2               h2797004_1    conda-forge
+libuuid                   2.38.1               h0b41bf4_0    conda-forge
+libzlib                   1.2.13               h166bdaf_4    conda-forge
+ncurses                   6.3                  h27087fc_1    conda-forge
+openssl                   3.1.0                hd590300_3    conda-forge
+pip                       23.1.2             pyhd8ed1ab_0    conda-forge
+python                    3.9.16          h2782a2a_0_cpython    conda-forge
+readline                  8.2                  h8228510_1    conda-forge
+setuptools                67.7.2             pyhd8ed1ab_0    conda-forge
+soupsieve                 2.3.2.post1        pyhd8ed1ab_0    conda-forge
+tk                        8.6.12               h27826a3_0    conda-forge
+tzdata                    2023c                h71feb2d_0    conda-forge
+wheel                     0.40.0             pyhd8ed1ab_0    conda-forge
+xz                        5.2.6                h166bdaf_0    conda-forge
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ echo [K[K[K[K[Kecho $PATH
+/home/varsha07/miniconda3/envs/snakes/bin:/home/varsha07/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/PuTTY:/mnt/c/Users/varsha.kujur/AppData/Local/miniconda3:/mnt/c/Users/varsha.kujur/AppData/Local/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/varsha.kujur/AppData/Local/miniconda3/Library/usr/bin:/mnt/c/Users/varsha.kujur/AppData/Local/miniconda3/Library/bin:/mnt/c/Users/varsha.kujur/AppData/Local/miniconda3/Scripts:/mnt/c/Users/varsha.kujur/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/varsha.kujur/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/varsha.kujur/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/varsha.kujur/AppData/Local/Programs/Git/cmd:/snap/bin
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ [K(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ [K(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ [K(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ which python
+/home/varsha07/miniconda3/envs/snakes/bin/python
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ Start-PsFCIV -Path C:\path\to\file.ext -HashAlgorithm SHA256 -Online
+Start-PsFCIV: command not found
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ sha256sum filename
+sha256sum: filename: No such file or directory
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ inst[K[K[K[Kconda install sha256
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Solving environment: | / - done
+
+## Package Plan ##
+
+  environment location: /home/varsha07/miniconda3/envs/snakes
+
+  added / updated specs:
+    - sha256
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    python_abi-3.9             |           3_cp39           6 KB  conda-forge
+    sha256-0.3                 |   py39hb9d737c_2          40 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:          45 KB
+
+The following NEW packages will be INSTALLED:
+
+  python_abi         conda-forge/linux-64::python_abi-3.9-3_cp39 
+  sha256             conda-forge/linux-64::sha256-0.3-py39hb9d737c_2 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+sha256-0.3           | 40 KB     |                               |   0% 
+python_abi-3.9       | 6 KB      |                               |   0% [A
+python_abi-3.9       | 6 KB      | ############################# | 100% [A
+python_abi-3.9       | 6 KB      | ############################# | 100% [Asha256-0.3           | 40 KB     | ###########7                  |  40% sha256-0.3           | 40 KB     | ############################# | 100% sha256-0.3           | 40 KB     | ############################# | 100%                                                                         
+                                                                        [A
+Preparing transaction: | done
+Verifying transaction: - done
+Executing transaction: | done
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda install sha256[2Psha256sum filenameStart-PsFCIV -Path C:\path\to\file.ext -HashAlgorithm SHA256 -Online[A(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ which python[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pecho $PATHconda listinstall beautifulsoup4[1Psearch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksha256
+
+CommandNotFoundError: No command 'conda sha256'.
+
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda sha256[C[C sha256s sha256e sha256a sha256r sha256c sha256h sha256
+Loading channels: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+# Name                       Version           Build  Channel             
+sha256                           0.3 py310h5764c6d_1  conda-forge         
+sha256                           0.3 py310h5764c6d_2  conda-forge         
+sha256                           0.3  py37h540881e_0  conda-forge         
+sha256                           0.3  py37h540881e_1  conda-forge         
+sha256                           0.3  py37h540881e_2  conda-forge         
+sha256                           0.3  py38h0a891b7_0  conda-forge         
+sha256                           0.3  py38h0a891b7_1  conda-forge         
+sha256                           0.3  py38h0a891b7_2  conda-forge         
+sha256                           0.3  py38h50598f1_2  conda-forge         
+sha256                           0.3  py39h4d8b378_2  conda-forge         
+sha256                           0.3  py39hb9d737c_0  conda-forge         
+sha256                           0.3  py39hb9d737c_1  conda-forge         
+sha256                           0.3  py39hb9d737c_2  conda-forge         
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ sha256sum filename
+sha256sum: filename: No such file or directory
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ sha256sum filename[K[K[K[K[K[K[K[K6950c7b1f4f65ce9b87ee1a2d684837771ae7b2e6044e0da9e915d1dee6c924c
+sha256sum: 6950c7b1f4f65ce9b87ee1a2d684837771ae7b2e6044e0da9e915d1dee6c924c: No such file or directory
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ SHA256 hash
+SHA256: command not found
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ SHA256 hash[K[K[K[K[K[K[K[K[K[K[Kshaa[K256
+
+Command 'sha256' not found, but can be installed with:
+
+sudo apt install hashalot
+
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ sudo apt install hashalot
+[sudo] password for varsha07: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  hashalot
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 15.2 kB of archives.
+After this operation, 50.2 kB of additional disk space will be used.
+[33m0% [Working][0m[33m0% [Connecting to archive.ubuntu.com][0m[33m0% [Connecting to archive.ubuntu.com (185.125.190.36)][0m[33m                                                      0% [Connecting to archive.ubuntu.com (91.189.91.38)][0m[33m0% [Connecting to archive.ubuntu.com (91.189.91.38)][0m[33m0% [Connecting to archive.ubuntu.com (91.189.91.38)][0m[33m0% [Connecting to archive.ubuntu.com (91.189.91.38)][0m[33m0% [Connecting to archive.ubuntu.com (91.189.91.38)][0m[33m0% [Connecting to archive.ubuntu.com (91.189.91.38)][0m[33m0% [Connecting to archive.ubuntu.com (91.189.91.38)][0m                                                    Err:1 http://archive.ubuntu.com/ubuntu focal/universe amd64 hashalot amd64 0.3-8
+  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Could not connect to archive.ubuntu.com:80 (91.189.91.39). - connect (111: Connection refused) Could not connect to archive.ubuntu.com:80 (185.125.190.36). - connect (111: Connection refused) Could not connect to archive.ubuntu.com:80 (91.189.91.38). - connect (111: Connection refused) Could not connect to archive.ubuntu.com:80 (185.125.190.39). - connect (111: Connection refused)
+[33m                                                    0% [Working][0m            [1;31mE: [0mFailed to fetch http://archive.ubuntu.com/ubuntu/pool/universe/h/hashalot/hashalot_0.3-8_amd64.deb  Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::19). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2001:67c:1562::18). - connect (101: Network is unreachable) Cannot initiate the connection to archive.ubuntu.com:80 (2620:2d:4000:1::16). - connect (101: Network is unreachable) Could not connect to archive.ubuntu.com:80 (91.189.91.39). - connect (111: Connection refused) Could not connect to archive.ubuntu.com:80 (185.125.190.36). - connect (111: Connection refused) Could not connect to archive.ubuntu.com:80 (91.189.91.38). - connect (111: Connection refused) Could not connect to archive.ubuntu.com:80 (185.125.190.39). - connect (111: Connection refused)[0m
+[1;31mE: [0mUnable to fetch some archives, maybe run apt-get update or try with --fix-missing?[0m
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ [K(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$  apt-get update or try with --fix-missing?
+E: Command line option --fix-missing? is not understood in combination with the other options
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ sudo apt install hashalot[Ksudo apt install hashalotha256[K--[K[K[K[K[K[K[K[Kfix[K[K[K--fix-missing
+--fix-missing: command not found
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ [K(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ [K(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda in[Knit fish
+no change     /home/varsha07/miniconda3/condabin/conda
+no change     /home/varsha07/miniconda3/bin/conda
+no change     /home/varsha07/miniconda3/bin/conda-env
+no change     /home/varsha07/miniconda3/bin/activate
+no change     /home/varsha07/miniconda3/bin/deactivate
+no change     /home/varsha07/miniconda3/etc/profile.d/conda.sh
+no change     /home/varsha07/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/varsha07/miniconda3/shell/condabin/Conda.psm1
+no change     /home/varsha07/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/varsha07/miniconda3/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /home/varsha07/miniconda3/etc/profile.d/conda.csh
+modified      /home/varsha07/.config/fish/config.fish
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda ci[Konfig
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda config --add channels conda-forge
+Warning: 'conda-forge' already in 'channels' list, moving to the top
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda config --set
+usage: conda config [-h] [--json] [-v] [-q]
+                    [--system | --env | --file FILE]
+                    [--show [SHOW ...] | --show-sources | --validate |
+                    --describe [DESCRIBE ...] | --write-default]
+                    [--get [KEY ...] | --append KEY VALUE | --prepend
+                    KEY VALUE | --set KEY VALUE | --remove KEY VALUE |
+                    --remove-key KEY | --stdin]
+conda config: error: argument --set: expected 2 arguments
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda config --set auto_update_conda False
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ conda config --help
+usage: conda config [-h] [--json] [-v] [-q]
+                    [--system | --env | --file FILE]
+                    [--show [SHOW ...] | --show-sources | --validate |
+                    --describe [DESCRIBE ...] | --write-default]
+                    [--get [KEY ...] | --append KEY VALUE | --prepend
+                    KEY VALUE | --set KEY VALUE | --remove KEY VALUE |
+                    --remove-key KEY | --stdin]
+
+Modify configuration values in .condarc.  This is modeled after the git
+config command.  Writes to the user .condarc file (/home/varsha07/.condarc) by default. Use the
+--show-sources flag to display all identified configuration locations on
+your computer.
+
+Options:
+
+options:
+  -h, --help            Show this help message and exit.
+
+Output, Prompt, and Flow Control Options:
+  --json                Report all output as json. Suitable for using
+                        conda programmatically.
+  -v, --verbose         Use once for info, twice for debug, three
+                        times for trace.
+  -q, --quiet           Do not display progress bar.
+
+Config File Location Selection:
+  Without one of these flags, the user config file at '/home/varsha07/.condarc' is used.
+
+  --system              Write to the system .condarc file at
+                        '/home/varsha07/miniconda3/.condarc'.
+  --env                 Write to the active conda environment .condarc
+                        file (/home/varsha07/miniconda3/envs/snakes).
+                        If no environment is active, write to the user
+                        config file (/home/varsha07/.condarc).
+  --file FILE           Write to the given file.
+
+Config Subcommands:
+  --show [SHOW ...]     Display configuration values as calculated and
+                        compiled. If no arguments given, show
+                        information for all configuration values.
+  --show-sources        Display all identified configuration sources.
+  --validate            Validate all configuration sources. Iterates
+                        over all .condarc files and checks for parsing
+                        errors.
+  --describe [DESCRIBE ...]
+                        Describe given configuration parameters. If no
+                        arguments given, show information for all
+                        configuration parameters.
+  --write-default       Write the default configuration to a file.
+                        Equivalent to `conda config --describe >
+                        ~/.condarc`.
+
+Config Modifiers:
+  --get [KEY ...]       Get a configuration value.
+  --append KEY VALUE    Add one configuration value to the end of a
+                        list key.
+  --prepend KEY VALUE, --add KEY VALUE
+                        Add one configuration value to the beginning
+                        of a list key.
+  --set KEY VALUE       Set a boolean or string key.
+  --remove KEY VALUE    Remove a configuration value from a list key.
+                        This removes all instances of the value.
+  --remove-key KEY      Remove a configuration key (and all its
+                        values).
+  --stdin               Apply configuration information given in yaml
+                        format piped through stdin.
+
+See `conda config --describe` or https://conda.io/docs/config.html
+for details on all the options that can go in .condarc.
+
+Examples:
+
+Display all configuration values as calculated and compiled::
+
+    conda config --show
+
+Display all identified configuration sources::
+
+    conda config --show-sources
+
+Print the descriptions of all available configuration
+options to your command line::
+
+    conda config --describe
+
+Print the description for the "channel_priority" configuration
+option to your command line::
+
+    conda config --describe channel_priority
+
+Add the conda-canary channel::
+
+    conda config --add channels conda-canary
+
+Set the output verbosity to level 3 (highest) for
+the current activate environment::
+
+    conda config --set verbosity 3 --env
+
+Add the 'conda-forge' channel as a backup to 'defaults'::
+
+    conda config --append channels conda-forge
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ auto_update_conda: False
+auto_update_conda:: command not found
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ auto_update_conda: False[1@c[1@o[1@n[1@d[C[1@a[1@ 
+usage: conda [-h] [-V] command ...
+conda: error: argument command: invalid choice: 'auto_update_conda:' (choose from 'clean', 'compare', 'config', 'create', 'info', 'init', 'install', 'list', 'package', 'remove', 'uninstall', 'rename', 'run', 'search', 'update', 'upgrade', 'notices')
+(snakes) ]0;varsha07@TIGER02756: ~[01;32mvarsha07@TIGER02756[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2023-05-15 20:23:01+05:30 [COMMAND_EXIT_CODE="2"]
